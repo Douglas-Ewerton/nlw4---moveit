@@ -12,8 +12,7 @@ export function Sidebar() {
                 <button type="button">
                     <img src="/icons/House.svg" alt="Desafios"/>
                 </button>
-            
-                <Link href="/Login">Login</Link>
+  
             </div>
         </div>
         
