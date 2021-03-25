@@ -1,0 +1,65 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2.5rem 6rem;
+
+    background: url('/icons/Simbolo.svg') no-repeat;
+    background-position: left;
+    background-color: var(--blue);
+    
+}
+
+.container > div main {
+    flex: 1;
+    padding-left: 70%
+}
+
+.container header {
+    margin-bottom: 5rem;
+    padding-left: 70%
+}
+  
+  .container header img {
+    width: 25rem;
+}
+
+.container h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+
+    color: var(--white);
+
+}
+.container p {
+    
+    margin: 2rem 0;
+
+    font-size: 1.25rem;
+    line-height: 1rem;
+    color: var(--white);
+      
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+    width: 25rem;
+    height: 4rem;
+
+    color: var(--white);
+    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+  
+  .container button img {
+    width: 2.5rem;
+}
