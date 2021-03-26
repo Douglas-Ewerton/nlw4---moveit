@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: var(--blackgroud);
+    background: var(--background);
     color: var(--text);
 }
 body, input, textarea, button{
@@ -30,12 +30,12 @@ a{
     }
 }
 :root{
-    --white: #fff;
-    --blackgroud: #f2f3f5;
+    --background: rgb(22, 22, 22);
+    --black: #1d1d1d;
     --gray-line: #DCDDE0;
     --text: #666666;
     --text-highlight: #B3B9FF;
-    --title: #2E384D;
+    --title: #ffffff;
     --red: #E83F5B;
     --green: #4CD62B;
     --blue: #5965E0;

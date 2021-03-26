@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    background: var(--white);
+    background: var(--black);
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     font-size: 8.5rem;
@@ -46,7 +46,7 @@
     border-radius: 5px;
 
     background: var(--blue);
-    color: var(--white);
+    color: var(--black);
 
     font-size: 1.25rem;
     font-weight: 600;

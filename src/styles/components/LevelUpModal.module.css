@@ -12,7 +12,7 @@
 }
 
 .container{
-    background: var(--white);
+    background: var(--black);
     width: 100%;
     max-width: 700px;
     padding: 2rem 3rem;
