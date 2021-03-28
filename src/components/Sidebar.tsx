@@ -5,7 +5,9 @@ export function Sidebar() {
     return(
         <div className={styles.container}>
             <div className={styles.containerLogo}>
+                <Link href="/Login">
                 <img src="/icons/Logo.svg" alt="Logo"/>
+                </Link>
             </div>
 
             <div className={styles.options}>

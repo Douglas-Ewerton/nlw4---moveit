@@ -9,7 +9,7 @@
 
     background: url('/icons/Simbolo.svg') no-repeat;
     background-position: left;
-    background-color: var(--blue);
+    background-color: var(--black);
     
 }
 
@@ -53,8 +53,8 @@
     width: 25rem;
     height: 4rem;
 
-    color: var(--white);
-    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+    color: var(--title);
+    background: #4953B8;
 
     border: none;
     border-radius: 5px 0px 0px 5px;

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/pages/PageLogin.module.css'
 
 export default function Login(){
